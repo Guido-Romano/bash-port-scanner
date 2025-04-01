@@ -1,4 +1,4 @@
-# Monitoreo de Integridad de Archivos de Contraseña en Linux
+# Monitoreo de Contraseñas en Linux
 
 Un script en Bash para monitorear cambios en archivos críticos de contraseñas en sistemas Linux, utilizando sumas de verificación SHA-256 para detectar modificaciones.
 

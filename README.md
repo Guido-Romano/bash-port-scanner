@@ -15,13 +15,13 @@ Un script en Bash para monitorear cambios en archivos críticos de contraseñas 
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/Guido-Romano/password_audit
-cd password_audit
+cd password_audit.sh
 ```
 
 ### 2. Configurar permisos y ejecutar el script
 ```bash
-chmod +x monitoreo_integridad.sh
-sudo ./monitoreo_integridad.sh
+chmod +x password_audit.sh
+sudo ./password_audit.sh
 ```
 
 ## Cómo funciona
@@ -35,7 +35,7 @@ crontab -e
 ```
 Añadir la siguiente línea para verificar cambios cada hora:
 ```bash
-0 * * * * /ruta/a/monitoreo_integridad.sh
+0 * * * * /RUTA/password_audit.sh
 ```
 
 ## Licencia
